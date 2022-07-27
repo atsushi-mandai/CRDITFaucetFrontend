@@ -1,0 +1,106 @@
+/*
+CSS file
+*/
+
+body {
+  font-family: "Seguoe UI";
+  background-color: #a5a4ce;
+}
+
+div.container {
+  width: 716px;
+  margin-top: -10px;
+  margin-bottom: -12px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 12px;
+  background-color: #ffffff;
+}
+
+/* header */
+
+div.header {
+  width: 716px;
+  height: 96px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.siteTitle {
+  font-size: 28px;
+  margin: 0px;
+}
+
+/* menu */
+
+div.siteMenu {
+  height: 48px;
+  margin-right: 24px;
+  margin-left: 24px;
+  background-color: #3465a3;
+  display: flex;
+  justify-content: center;
+}
+
+div.menu {
+  height: 48px;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* sections */
+
+div.section {
+  margin: 24px;
+  padding: 12px;
+  border: solid;
+  border-color: #3465a3;
+}
+
+div.section2 {
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  padding: 12px;
+}
+
+h2.section {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* items */
+
+div.itemContainer {
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+div.item {
+  margin-top: 0px;
+  margin-right: 12px;
+  margin-left: 12px;
+  flex-wrap: wrap;
+}
+
+img.item {
+  width: 136px;
+  height: 136px;
+  margin: 0px;
+}
+
+h3.item {
+  font-size: 12px;
+  margin: 0px;
+}
+
+button.item {
+  margin-top: 12px;
+}

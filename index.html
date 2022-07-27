@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CRDIT Faucet</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="siteTitle">CRDIT Faucet for BNB Testnet.</h1>
+      </div>
+      <div class="section2">
+        <div class="itemContainer">
+          <div class="item">
+            <p>Step1: Connect your wallet.</p>
+            <div id="connectDiv">
+              <button id="buttonConnectWallet">Connect Wallet</button>
+            </div>
+          </div>
+          <div class="item">
+            <p>Step2: Get CRDIT for free.</p>
+            <div id="mintDiv"><p>Connect your wallet first.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="section2">
+        <span id="message"></span>
+      </div>
+      <div class="section">
+        <h2 class="section">What is CRDIT Faucet?</h2>
+        <p>
+          This website interacts with the CRDIT Faucet contract and provides a
+          front end for receiving the ERC20 token "CRDIT" issued on the BNB
+          chain for free.
+        </p>
+        <p>
+          The CRDIT Faucet contract is assigned the right to newly issue CRDIT
+          from the CRDIT contract up to 100,000 CRDIT, and free distribution is
+          performed using the issuance limit.
+        </p>
+        <p>
+          After connecting the wallet, the user chooses a fixed amount or a
+          random amount to receive CRDIT. If the user chooses to receive a
+          flat-rate CRDIT, they will receive 95 CRDIT. If the user chooses to
+          receive a random amount of CRDIT, there is a one-third chance that
+          they will receive a CRDIT that is 0.8x, 1x, or 1.2x multiplied by 95.
+          These are the figures as of July 2022.
+        </p>
+        <p>
+          After receiving a CRDIT once, the user must wait 24 hours before
+          receiving the next CRDIT.
+        </p>
+      </div>
+      <div class="section">
+        <h2 class="section">For more information...</h2>
+        <p>Contract address for BNBChain Mainnet:</p>
+        <p>
+          Contract address for BNBChain Testnet:
+          0x1d8d7994Eae6eEee2814B6862474eDc12EB7f58A
+        </p>
+        <p>
+          Document for CRDIT Faucet:
+          <a
+            href="https://app.gitbook.com/s/Y4ttnVUF9l8mjhCX3zqE/crdit-faucet/descriptions"
+            >https://app.gitbook.com/s/Y4ttnVUF9l8mjhCX3zqE/crdit-faucet/descriptions</a
+          >
+        </p>
+      </div>
+    </div>
+    <script type="text/javascript" src="/scripts/faucet.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"
+    ></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+  </body>
+</html>
